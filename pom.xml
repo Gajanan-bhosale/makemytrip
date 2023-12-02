@@ -12,6 +12,7 @@
 	<artifactId>makemytrip</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>makemytrip</name>
+	<packaging>jar</packaging>
 	<description>Demo project for the Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
