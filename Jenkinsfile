@@ -51,7 +51,7 @@ pipeline {
                  withCredentials([string(credentialsId: 'dockerhubCred', variable: 'dockerhubCred')]){
                  sh 'docker login docker.io -u kubegajanan -p ${dockerhubCred}'
                  echo "Push Docker Image to DockerHub : In Progress"
-                 sh 'docker push kubegajanan/makemytrip:latest'
+                 sh 'docker push kubegajanan/makemytrip:dev-makemytrip-v.1.${BUILD_NUMBER}'
                  echo "Push Docker Image to DockerHub : In Progress"
                  sh 'whoami'
                  }
