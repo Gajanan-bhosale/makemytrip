@@ -69,7 +69,7 @@ pipeline {
                  docker tag makemytrip:latest 559220132560.dkr.ecr.ap-south-1.amazonaws.com/makemytrip:latest
                  echo "Tagging the Docker Image: Completed"
                  echo "Push Docker Image to ECR : In Progress"
-                 docker push 559220132560.dkr.ecr.ap-south-1.amazonaws.com/makemytrip:latest
+                 docker push 730714064933.dkr.ecr.ap-south-1.amazonaws.com/makemytrip:latest
                  echo "Push Docker Image to ECR : Completed"
                  """
                  }
